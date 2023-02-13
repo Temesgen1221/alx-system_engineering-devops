@@ -1,2 +1,2 @@
 #!/bin/bash
-egreep -A 3 "root" /etc/passwd
+egreep -C "bin" /etc/passwd
